@@ -1,0 +1,405 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    background-color: rgb(254,244,244); 
+}
+#nav-container{
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.nav-child1 span{
+    position: relative;
+    left: 50px;
+}
+
+.nav-child1 input{
+    background-color: rgba(211, 211, 211, 0.429);
+    
+
+}
+#nav-parent{
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+
+}
+.nav-child1{
+    /* background-color: yellow; */
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-child1 input{
+    height: 100%;
+    width: 70%;
+    border: none;
+    border-radius: 15px;
+    
+    padding-left: 10px;
+    outline: none;
+    padding-left: 40px;
+}
+.nav-child2{
+    width:15% ;
+    /* background-color: green; */
+
+}
+.nav-child3{
+    width: 30%;
+    /* background-color: rgb(255, 111, 0); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-child3 div{
+   
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-child3 div:hover{
+    
+    border-radius: 20px;
+    background-color:#ddd;
+    color: red;
+}
+
+.Sign{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 20px;
+}
+
+.main-child1{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: pink;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.6);
+  
+   
+}
+
+
+
+
+
+.main-child1 div{
+    width: 90px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    color: rgb(39, 39, 96);
+    
+  
+}
+
+.main-child1 div:hover{
+    color: red;
+    
+}
+
+.home{
+    height: 90vh;
+    width: 90vw;
+    margin: 0px 70px 10px;
+    /* border: 2px solid red; */
+    background: url('./image/flowing-river-background-natural-boundary.jpg') no-repeat scroll;
+    background-size: cover;
+}
+
+.home1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.633);
+}
+
+.home1 button{
+    height: 60px;
+    width: 150px;
+    border: 2px solid red;
+    position: relative;
+    left: 610px;
+    top: 230px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    font-size: medium;
+}
+
+.home1 h1{
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 180px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.store{
+    height: 100vh;
+    width: 91%;
+    margin-left: 70px;
+}
+
+.storename {
+    height: 15%;
+    margin-bottom: 20px;
+}
+
+.storename h1{
+    position: relative;
+    top: 30px;
+}
+
+.photo{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+
+
+.cver{
+    height: 100%;
+    width: 215px;
+    background-color: white;
+}
+
+.cver:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.image{
+    height: 60%;
+    width: 100%;
+}
+
+
+.image .text{
+    position: relative;
+    top: 20px;
+    padding: 0px 20px 20px;
+}
+
+.image .text>h1{
+    padding-bottom: 10px;
+}
+
+.text>h1:hover{
+    color: red;
+}
+
+.image .text>h4{
+    padding-bottom: 10px;
+    color: lightgray;
+}
+
+.image .text>h2{
+    color: red;
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    padding-left: 20px;
+}
+
+
+.week{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.featur{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fig{
+    width: 75%;
+    height: 100%;
+    margin-right: 10px;
+
+}
+
+.add{
+    margin-left: 10px;
+    width: 25%;
+    height: 100%;
+    background: url(./image/ad.jpg.webp) no-repeat scroll;
+    background-size: cover;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px 10px ;
+    height: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name button{
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid  lightgray;
+    padding-bottom: 15px;
+}
+
+.name button:hover{
+    width: 80px;
+}
+
+.book{
+    display: flex;
+    margin-top: 20px;
+    height: 86% ;
+    align-items: center;
+    background-color: red;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 70px 10px;
+    
+}
+
+.bookcover{
+    height: 90%;
+    width: 35%;
+    background: url(./image/best-books1.jpg.webp) no-repeat scroll;
+    background-size: cover;
+
+
+}
+
+.bookinfo{
+    height: 90%;
+    width: 65%;
+    color: white;
+    text-align: left;
+    padding: 35px;    
+}
+
+.bookinfo button{
+    height: 45px;
+    width: 130px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 60px;
+    position: relative;
+    top: 20px;
+    transition-property:all ;
+    transition-duration: 0.5s;
+}
+
+.bookinfo button:hover{
+    background-color: white;
+   
+}
+
+.bookinfo h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.bookinfo h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.bookinfo h2{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 40px;
+    margin-left: 20px;
+    
+}
+
+footer{
+    height: 50vh;
+    background-color: #FEF4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot{
+    height: 90%;
+    width: 20%;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+
+#pic img{
+    height: 40px;
+    margin: 30px 10px;
+    transition: 0.2s linear ;
+}
+
+#pic > img:hover{
+
+  /* filter: brightness(0) invert(1); */
+  color: wheat;
+  background-color: red;
+  border-radius: 50%;
+ 
+}
+
+#catg li , #sitemap li{
+    color: #565e90;
+    margin: 20px;
+    font-weight: lighter;
+    list-style: none;
+}
+
+#catg span , #sitemap span{
+    color: #1c2953da;
+    font-weight: bolder;
+}
+
+
